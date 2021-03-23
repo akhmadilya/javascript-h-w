@@ -1,0 +1,25 @@
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo-item {
+    width: 47%;
+    height: 350px;
+    margin-bottom: 45px;
+}
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15%;
+    border: black solid;
+}
+
+.tabs {
+    padding: 70px 20%;
+}
